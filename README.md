@@ -25,20 +25,20 @@ dependencies {
 
 To display only Text:
 ```kotlin
-showText(context, "This is Message!!!", Toast.LENGTH_SHORT)
+Toaster().showText(context, "This is Message!!!", Toast.LENGTH_SHORT)
 ```
 
 To display only Text with custom background color:
 ```kotlin
-showText(context, yourColor, "This is Message!!!", Toast.LENGTH_SHORT)
+Toaster().showText(context, yourColor, "This is Message!!!", Toast.LENGTH_SHORT)
 ```
 
 To display Text and Icon:
 ```kotlin
-showIcon(context, yourIcon, "This is Message!!!", Toast.LENGTH_SHORT)
+Toaster().showIcon(context, yourIcon, "This is Message!!!", Toast.LENGTH_SHORT)
 ```
 
 To display Text and Icon with custom background color:
 ```kotlin
-showIcon(context, yourIcon, yourColor, "This is Message!!!", Toast.LENGTH_SHORT)
+Toaster().showIcon(context, yourIcon, yourColor, "This is Message!!!", Toast.LENGTH_SHORT)
 ```
