@@ -17,7 +17,7 @@ allprojects {
 
 ```bash
 dependencies {
-      implementation ''
+implementation 'com.github.AkhmadGhafirin:simple-toast-library:0.0.1'
 }
 ```
 
